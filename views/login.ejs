@@ -1,0 +1,28 @@
+<%-include('header')%>
+<body>
+	<link rel="stylesheet" type="text/css" href="css/auth.css" />
+	<script src="js/login.js"></script>
+	<div class="box" id="auth-box">
+		<h1 id="logo">
+			LOGIN
+		</h1>
+		<hr class="mid-hr" />
+		<input type="text" class="auth-input" id="useremail" placeholder="이메일" />
+		<input type="password" class="auth-input" id="userpwd" placeholder="비밀번호" />
+		<a href="#">
+			<div class="btn submit-btn" id="submit">
+				<div class="ld ld-ring ld-spin" id='loading' style='display: none;margin-top: 16px;'></div>
+				<i class="fas fa-arrow-right" id="submit-icon"></i>
+			</div>
+		</a>
+		<div class="box-footer">
+			<p style='font-size: 13px; margin-bottom: 30px;'>
+				로그인이 안된다면, <a href="/register" style="text-decoration: underline; color: #000000;">디바이스 등록하기</a>
+			</p>
+			<p>
+				본 클라이언트는 카카오에서 제공하는 클라이언트가 아닙니다. 
+				<br>Github@cla6shade
+			</p>
+		</div>
+	</div>
+</body>
